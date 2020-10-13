@@ -12,3 +12,22 @@ img {
   height: 150px;
   width: auto;
 }
+
+button {
+  background-color: salmon;
+  border-radius: 30px;
+  text-transform: uppercase;
+  border: 2px solid purple;
+  color: white;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: green;
+  border-color: blue;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
